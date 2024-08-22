@@ -27,8 +27,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-// Listen on port 5035 for any IP address
-app.Urls.Add("http://0.0.0.0:5035");
+// Listen on port 5036 for any IP address
+app.Urls.Add("http://0.0.0.0:5036");
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
